@@ -1,4 +1,31 @@
-<header>
-  <div class="div"></div>
-  <h1>Header</h1>
+<header class="header">
+  <div class="header-container container">
+    <div class="header-container">
+      <a class="link" href="/src/index.html"><img src="images/icon.png" alt="Cinemania" width="48" height="48" /></a>
+      <a class="link" href="/src/index.html">
+        <h2 class="header-title">Cinemania</h2>
+      </a>
+    </div>
+
+    <nav class="header-nav">
+      <ul class="header-list list">
+        <li><a class="header-nav-title link" href="">HOME</a></li>
+        <li><a class="header-nav-title link" href="">CATALOG</a></li>
+        <li><a class="header-nav-title link" href="">MY LIBRARY</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <fieldset class="header-toggle toggle" aria-label="theme toggle" role="radiogroup">
+        <!-- <label for="dark"><span class="visually-hidden">On</span></label> -->
+        <div class="toggle-wrapper">
+          <input class="input-dark" type="radio" name="theme" id="dark">
+          <input class="input-light" type="radio" name="theme" id="light">
+          <span aria-hidden="true" class="toggle-background"></span>
+          <span aria-hidden="true" class="toggle-button"></span>
+        </div>
+        <!-- <label for="light" class="visually-hidden"></label> -->
+      </fieldset>
+    </div>
+  </div>
 </header>

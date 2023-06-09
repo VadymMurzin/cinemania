@@ -1,9 +1,60 @@
-h1 {
-  color: var(--orange);
+.header {
+  background-color: var(--black);
 }
 
-.div{
-    width: 100px;
-    height: 100px;
-    background: var(--orange);
+.header-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 8px;
+
+  color: #ffffff;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 262px;
+  height: 16px;
+  // margin-left: 509px;
+}
+
+.header-nav-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  /* Grey */
+  color: var(--grey);
+}
+
+.header-toggle {
+  border-style: none;
+}
+.toggle {
+}
+.toggle-wrapper {
+  background: linear-gradient(141.22deg, #ffc226 9.4%, #f84119 91.91%);
+  border-radius: 194px;
+}
+.input-dark {
+}
+.input-light {
+}
+.toggle-background {
+}
+.toggle-button {
 }
