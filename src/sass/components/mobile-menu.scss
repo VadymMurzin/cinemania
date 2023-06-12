@@ -70,10 +70,18 @@
   .mobile-container {
     display: none;
   }
+
+  .mobile-menu-bar-container-img {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .mobile-container {
+    display: none;
+  }
+
+  .mobile-menu-bar-container-img {
     display: none;
   }
 }
