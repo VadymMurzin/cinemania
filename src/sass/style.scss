@@ -1,2 +1,15 @@
-@use 'globals';
-@use 'components';
+/*---------------------COMPONENT------------------*/
+@import 'components/header';
+@import 'components/mobile-menu';
+
+/*---------------------GLOBALS-------------------*/
+@import 'globals/colors';
+@import 'globals/container';
+@import 'globals/fonts';
+@import 'globals/reset';
+@import 'globals/total';
+
+/*--------------------UTIL----------------------*/
+@import 'util/function';
+
+@import 'common';
