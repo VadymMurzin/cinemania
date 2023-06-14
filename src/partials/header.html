@@ -2,7 +2,7 @@
   <div class="header-container container">
     <nav class="header-nav">
       <a class="header-logo-link link" href="/src/index.html"
-        ><img src="images/icon.png" alt="Cinemania" width="48" height="48"
+        ><img src="images/icon.png" class="header-logo" alt="Cinemania" width="48" height="48"
       />
       <span class="header-title">Cinemania</span>
     </a>
@@ -11,6 +11,8 @@
         <li class="header-item"><a class="link" href="">CATALOG</a></li>
         <li class="header-item"><a class="link" href="">MY LIBRARY</a></li>
       </ul>
+
+      <button type="button" class="mobile-menu-bt" data-menu-open>Menu</button>
 
       <div>
         <fieldset
@@ -41,62 +43,30 @@
 
   </div>
 
-  <!-- <div class="mobile-container container">
-    <a class="link" href="/src/index.html"
-      ><img src="images/icon.png" alt="Cinemania" width="32" height="32"
-    /></a>
-    <button type="button" class="mobile-menu-bt">Menu</button>
-    <div class="toggle-container">
-      <fieldset
-        class="header-toggle toggle"
-        aria-label="theme toggle"
-        role="radiogroup"
-      >
-        <div class="toggle-wrapper">
-          <svg class="svg-moon" width="13" height="13">
-            <use href="images/icon.svg#icon-Moon"></use>
-          </svg>
-          <input class="input-dark" type="radio" name="theme" id="dark" />
-          <input class="input-light" type="radio" name="theme" id="light" />
-          <svg class="svg-sun" width="14" height="14">
-            <use href="images/icon.svg#icon-Sun"></use>
-          </svg>
-          <svg class="svg-toggle" width="18" height="18">
-            <use href="images/icon.svg#icon-Toggle"></use>
-          </svg>
-          <span aria-hidden="true" class="toggle-background"></span>
-          <span aria-hidden="true" class="toggle-button"></span>
-        </div>
-      </fieldset>
-    </div>
-  </div> -->
-
-  <!-- <div class="mobile-menu-bar is-hidden">
+  <div class="mobile-menu-bar is-hidden" data-menu>
     <div class="mobile-menu-bar-container">
-      <div class="mobile-menu-bar-container-img">
-        <a class="link" href="/src/index.html"
+        <button type="button" class="mobile-menu-bar-bt" data-menu-close
         ><img src="images/icon.png" alt="Cinemania" width="32" height="32"
-      /></a>
-      </div>
+      /></button>
       <nav>
         <ul class="mobile-menu-bar-list list">
-          <li>  <a
+          <li class="mobile-nav-title">  <a
             href="./index.html"
-            class="mobile-nav-title link"
+            class="link"
             >Home</a
           ></li>
-          <li>  <a
+          <li class="mobile-nav-title">  <a
             href="./index.html"
-            class="mobile-nav-title link"
+            class="link"
             >Catalog</a
           ></li>
-          <li>  <a
+          <li class="mobile-nav-title">  <a
             href="./index.html"
-            class="mobile-nav-title link"
+            class="link"
             >My Library</a
           ></li>
         </ul>
       </nav>
     </div>
-  </div> -->
+  </div>
 </header>
